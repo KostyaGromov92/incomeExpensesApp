@@ -1,0 +1,19 @@
+[ignore]
+.*/node_modules/chalk/.*
+.*/node_modules/config-chain/.*
+.*/node_modules/esformatter/.*
+.*/node_modules/eslint-plugin-jsx-a11y/.*
+.*/node_modules/fbjs/.*
+.*/node_modules/react-motion/.*
+.*/node_modules/stylelint/.*
+.*/node_modules/create-react-context/.*
+.*/node_modules/@troveng/swagger-gen-js/src/.*
+.*/src/scripts/sagas/V4/promotions.js
+.*/test/scripts/sagas/V4/promotions.js
+.*/.git/.*
+
+[libs]
+./test/test_helpers/mocha.js
+
+[options]
+suppress_comment= \\(.\\|\n\\)*\\flow-disable-next-line
